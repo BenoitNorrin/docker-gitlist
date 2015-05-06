@@ -5,7 +5,7 @@ MAINTAINER Benoit NORRIN <benoit@norrin.fr>
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 RUN a2enmod rewrite
 
-ENV GITLIST_VERSION 0.5.0
+ENV GITLIST_VERSION master
 
 RUN mkdir -p /home/git/repositories/ \
         && cd /home/git/repositories/ \
