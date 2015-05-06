@@ -10,5 +10,5 @@ GitList is an elegant and modern web interface for interacting with multiple git
 ## How to use this image
 
 ```
-docker run -it --rm --name gitlist -p 8080:80 -v -v "$PWD":/home/git/repositories/ bnorrin/docker-gitlist
+docker run -it --rm --name gitlist -p 8080:80 -v "$PWD":/home/git/repositories/ bnorrin/docker-gitlist
 ```
